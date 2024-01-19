@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root{
+    --inter: 'inter', sans-serif;
+    --Kaushan: 'Kaushan Script', cursive;
+    --Mont: 'Montserrat', sans-serif;
+}
+body {
+  font-family: 'Kaushan Script', cursive;
+  background: #b9b3a9;
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/367418010_1468665820536231_2466274955155951413_n.png);
+  background-size: cover;
+  
+}
+
+.container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  box-shadow: 0 2px 4px rgba(0, 0., 0, 0.75);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color:violet;
+  background-color: oldlace;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.options {
+  margin-bottom: 20px;
+  margin-left: 22%;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: violet;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  margin-left: 40%;
+}
+
+.button:hover {
+  background-color: #9a0eea;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+.options :hover{
+  color: #9a0eea;
+}
